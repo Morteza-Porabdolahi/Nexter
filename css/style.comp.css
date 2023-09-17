@@ -43,11 +43,6 @@ body {
   .container {
     grid-template-rows: 6rem calc(100vh - 6rem);
   }
-  @supports (height: 100dvh) {
-    .container {
-      grid-template-rows: 6rem calc(100dvh - 6rem);
-    }
-  }
 }
 
 .heading-4,
@@ -550,4 +545,4 @@ body {
   translate: 0 -3px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.comp.css.map */
